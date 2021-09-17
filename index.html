@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Hello, world!</title>
+    <script src="jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar and logo -->
+    <div class="head-nav">
+<nav class="navbar sticky-top navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img class="menu" src="menu.png" width="25" height="25" class="d-inline-block align-top" alt="">Admin Dashboard</a>
+
+</nav>
+</div>
+
+
+<div class="side-nav">
+  <!-- Sidebar -->
+  
+  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+    <img class ="logo"src="logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+    <div class="position-sticky">
+      
+      <div class="list-group list-group-flush mx-3 mt-4">
+       
+        <a href="#"
+          class="list-group-item list-group-item-action py-2 ripple"
+          aria-current="true">
+       
+        <img class="four" src="event.png" width="35" height="35" class="d-inline-block align-top" alt=""> <span class="text11">events</span>
+        </a>
+     
+       
+      <a
+          href="#"
+          class="list-group-item list-group-item-action py-2 ripple"
+          aria-current="true"
+        >
+        <img class="group" src="group.png" width="35" height="35" class="d-inline-block align-top" alt=""> <span class="text11">teams</span>
+        </a>
+    
+
+        <a
+        href="#"
+        class="list-group-item list-group-item-action py-2 ripple"
+        aria-current="true"
+      >
+      <img class="four" src="analytics.png" width="35" height="35" class="d-inline-block align-top" alt=""> <span class="text1">analytics</span>
+      </a>
+
+
+
+        <a
+          href="#"
+          class="list-group-item list-group-item-action py-2 ripple"
+          aria-current="true"
+        >
+        <img class="four" src="test.png" width="35" height="35" class="d-inline-block align-top" alt=""> <span class="text1">results</span>
+        </a>
+      
+        
+
+      </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!--cmain content-->
+  <div class="row">
+    <div class="column">
+      <h2 class="event-set">Event settings </h2>
+      <hr>
+      <a class="event-set-li" href="#" > Genral </a><br>
+      <a class="event-set-li" href="#" > Privacy </a><br>
+      <a class="event-set-li active" href="#" > Features </a><br>
+      <a class="event-set-li" href="#" > Customization </a><br>
+      <a class="event-set-li" href="#" > Integration </a><br>
+      <a class="event-set-li" href="#" > Session Settings </a><br>
+      <a class="event-set-li" href="#" > My plans </a><br>
+    </div>
+
+
+
+    <div class="column2">
+      <img class="X" src="x-mark.png">
+    <div class="QNA">
+    
+      <img class="svg" src="chat.png"/> <span class="qna-text">Audience Q&A</span>
+        </a>
+        <div class="toggle">
+      <div id="togglebuttonoff"  style="display: none" onclick="toggleit()"><img src="toggleoff.png"></div>
+      <div id="togglebuttonon"> <img src="toggleon.png" onclick="toggleit()"></div>
+    </div>
+    
+
+        <hr>
+<div class="wraaper">
+      <div class="main-cont">
+
+      
+        <h5 class="head-text">Moderation</h5>
+        <p class="p1">Eaisly review all questions before they go live. </p>
+
+        <h5 class="head-text">Labels</h5>
+        <p class="p1">Categorize and filter questions. </p>
+
+        <h5 class="head-text">Downvotes</h5>
+        <p class="p1">Enables downoving of questions. </p>
+
+        <h5 class="head-text">Replies</h5>
+        <p class="p1">Allow participants to reply or comment on questions. </p>
+
+        <h5 class="head-text">Anonymous questions</h5>
+        <p class="p1">Let your participants send anonymous questions. </p>
+
+        <h5 class="head-text">Maximum question length</h5>
+        <p class="p1">show number of votes instead of percentage </p>
+     
+
+<div class="buttons">
+       <button id=btn0 type="button" class="btn btn-outline-primary btn-sm">100</button>
+       <button id=btn0 type="button" class="btn btn-outline-primary btn-sm">200</button>
+        <button id=btn type="button" class="btn btn-primary btn-sm">300</button>
+      </div>
+      <h5 class="head-text">Close  questions</h5>
+      <p class="p1"> Prevent the participants from sending new questions to your event </p>
+
+      </div> <!--main cont-->
+  
+<div class="main-cont2">
+<!-- Rounded switch -->
+
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+<br>
+
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+<br>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+<br>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+<br>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+<br>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+<br>
+<div class="last">
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+</div>
+<br>
+
+</div>
+
+    </div>
+     
+    </div>
+    <div class="last-btn">
+      <button id=btn11 type="button" class="btn btn-primary btn-lg">Save</button>
+    </div>
+          </div> 
+     </div>
+   <div class="right-nav">
+    
+    <img class ="profile"src="profile.png" width="50" height="50" class="d-inline-block align-top" alt="">
+
+   <br>
+   <a class="right-bar" href="#">
+    <img alt="Qries" src="notification.png"  width="30" height="30">
+ </a>
+ <br>
+ 
+ <a class="right-bar" href="#">
+  <img alt="Qries" src="conversation.png"  width="30" height="30">
+
+</a>
+<br>
+
+
+   <a class="right-bar" href="#">
+    <img alt="Qries" src="settings.png"  width="30" height="30">
+ </a>
+ 
+
+
+   </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+   
+    <script>
+      function toggleit(){
+        $("#togglebuttonoff").toggle()
+        $("#togglebuttonon").toggle()
+      }
+    </script>
+      <script src="myscripts.js"></script> 
+   
+  </body>
+</html>
